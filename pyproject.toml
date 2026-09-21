@@ -7,7 +7,10 @@ name = "rag-research-assistant"
 version = "0.1.0"
 description = "Production-style RAG assistant for research and technical documents."
 requires-python = ">=3.11"
-dependencies = []
+
+dependencies = [
+    "pypdf>=5.0"
+]
 
 [project.optional-dependencies]
 dev = [
